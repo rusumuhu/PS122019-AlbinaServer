@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Bor.DataAccess.Core.Models.Enums
 {
-    class CostCurrencyRto
+    public enum CostCurrencyRto
     {
+        RUB,
+        EUR,
+        USD
     }
 }
