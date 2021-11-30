@@ -15,8 +15,9 @@ namespace Bor.DataAccess.Core.Models
         [Required] public string PhoneNumberPrefix { get; set; }
         [Required] public string PhoneNumber { get; set; }
         [Required, MinLength(7)] public string Password { get; set; }
-        public string ImageName { get; set; }
+        public string ImageUrl { get; set; }
         #endregion
+
         #region внешние ключи
         public List<VirtualExpenseRto> VirtualExpenses { get; set; }
         public List<RejectExpenseRto> RejectExpenses { get; set; }
