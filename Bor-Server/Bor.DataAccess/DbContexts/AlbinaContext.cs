@@ -1,11 +1,11 @@
-﻿using System;
+﻿using Bor.DataAccess.Core.Interfaces;
+using Bor.DataAccess.Core.Models;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Bor.DataAccess.Core.Interfaces;
-using Bor.DataAccess.Core.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace Bor.DataAccess.DbContexts
 {
@@ -13,7 +13,6 @@ namespace Bor.DataAccess.DbContexts
     {
         public AlbinaContext(DbContextOptions<AlbinaContext> options) : base(options)
         {
-
         }
 
         public DbSet<UserRto> Users { get; set; }
