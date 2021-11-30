@@ -42,5 +42,18 @@
     </Reference>
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoMapperProfiles\BusinessLogicProfile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Albina.BusinesLogic.Core\Albina.BusinesLogic.Core.csproj">
+      <Project>{8457A973-528B-42C5-935E-89C2F62862F9}</Project>
+      <Name>Albina.BusinesLogic.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bor.DataAccess.Core\Bor.DataAccess.Core.csproj">
+      <Project>{14432E1E-5D01-4295-B279-0A3011C5BB7A}</Project>
+      <Name>Bor.DataAccess.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
