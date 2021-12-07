@@ -116,11 +116,5 @@
   <ItemGroup>
     <Compile Include="DbContexts\AlbinaContext.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Bor.DataAccess.Core\Bor.DataAccess.Core.csproj">
-      <Project>{14432E1E-5D01-4295-B279-0A3011C5BB7A}</Project>
-      <Name>Bor.DataAccess.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
