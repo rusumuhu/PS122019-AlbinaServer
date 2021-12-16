@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\Share\\Share.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\Share\\Share.csproj",
         "packagesPath": "C:\\Users\\titov\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\titov\\Documents\\GitHub\\PS122019-AlbinaServer\\Bor-Server\\Share\\obj\\",
+=======
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\note-ps-122019\\PS122019-AlbinaServer\\Bor-Server\\Share\\Share.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\note-ps-122019\\PS122019-AlbinaServer\\Bor-Server\\Share\\Share.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-ps-122019\\PS122019-AlbinaServer\\Bor-Server\\Share\\Share.csproj",
+        "projectName": "Share",
+        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-ps-122019\\PS122019-AlbinaServer\\Bor-Server\\Share\\Share.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\note-ps-122019\\PS122019-AlbinaServer\\Bor-Server\\Share\\obj\\",
+>>>>>>> 321bb16a06cd97a9c0756a65cc76efc442437346
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\titov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 321bb16a06cd97a9c0756a65cc76efc442437346
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
